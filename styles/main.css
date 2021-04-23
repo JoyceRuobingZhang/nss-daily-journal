@@ -1,0 +1,63 @@
+@import "./forms.css";
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    justify-content: center;
+    background-color: rgb(229, 245, 204);
+    width: 70%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.daily_journal {
+    align-self: center;
+}
+
+.author {
+    display: flex;
+    margin: auto;
+}
+
+
+/* .component_lists {
+    display: flex;
+    border: 1px solid rgb(50, 88, 50);
+    border-radius: 20px;
+    width: 30%;
+}
+
+.component_list {
+    border: 1px solid rgb(50, 88, 50);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20px;
+} */
+
+.record {
+    border-radius: 20px;
+    border-color: ivory;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    font-size: medium;
+    margin: 20px;
+    margin-left: 0px;
+    background-color: rgb(224, 240, 199);
+}
+
+footer {
+    text-align: center;
+}

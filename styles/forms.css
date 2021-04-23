@@ -1,0 +1,43 @@
+.forms {
+    height: 100vh;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between;*/
+}
+
+label {
+    font-size: large;
+}
+
+#date {
+    display: inline-block;
+    width: 100px;
+    flex: 1;
+    font-family: 'Playfair Display', serif;
+}
+
+#concepts {
+    display: inline-block;
+    width: 200px;
+    flex: 1;
+    font-family: 'Playfair Display', serif;
+}
+
+input {
+    margin: 20px;
+}
+
+#journey_entry {
+    flex: 15;
+    width: 500px;
+    font-family: 'Playfair Display', serif;
+}
+
+select {
+    display: inline-block;
+    width: 100px;
+    margin: 15px;
+    margin-top: 0px;
+}

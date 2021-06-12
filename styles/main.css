@@ -49,13 +49,22 @@ header {
 .record {
     border-radius: 20px;
     border-color: ivory;
-    display: inline-block;
     width: 200px;
-    text-align: center;
     font-size: medium;
-    margin: 20px;
-    margin-left: 0px;
     background-color: rgb(224, 240, 199);
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.entries_record {
+    margin: auto;
+    width: 800px;
+}
+
+.entries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 footer {
